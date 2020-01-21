@@ -1,4 +1,4 @@
-package com.emon535;
+package com.emon535.User;
 
 public class User {
     // Fields :
@@ -14,6 +14,4 @@ public class User {
     public  void sayHello(){
         System.out.println("Say Hello");
     }
-
-
 }
