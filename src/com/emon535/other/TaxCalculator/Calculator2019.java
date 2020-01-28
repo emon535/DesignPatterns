@@ -1,4 +1,4 @@
-package com.emon535.TaxCalculator;
+package com.emon535.other.TaxCalculator;
 
 public class Calculator2019 implements TaxCalculator {
     @Override

@@ -1,4 +1,4 @@
-package com.emon535.User;
+package com.emon535.other.User;
 
 public class User {
     // Fields :

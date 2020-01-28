@@ -1,4 +1,4 @@
-package com.emon535.momento;
+package com.emon535.Memento;
 
 public class Editor {
     private  String content;

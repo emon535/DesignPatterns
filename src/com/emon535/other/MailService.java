@@ -1,4 +1,4 @@
-package com.emon535;
+package com.emon535.other;
 
 public class MailService {
     public  void sendEmail(){

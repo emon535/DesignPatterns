@@ -1,10 +1,13 @@
-package com.emon535;
+package com.emon535.other;
 
-import com.emon535.UI.CheckBox;
-import com.emon535.UI.TextBox;
-import com.emon535.User.User;
-import com.emon535.momento.Editor;
-import com.emon535.momento.History;
+import com.emon535.State.Canvas;
+import com.emon535.State.CircleTool;
+import com.emon535.State.SelectionTools;
+import com.emon535.other.UI.CheckBox;
+import com.emon535.other.UI.TextBox;
+import com.emon535.other.User.User;
+import com.emon535.Memento.Editor;
+import com.emon535.Memento.History;
 
 public class Main {
 
@@ -50,6 +53,14 @@ public class Main {
 
         System.out.println(editor.getContent());
 
+        // Canvas:
+
+        var canvas = new Canvas();
+        canvas.setCurrentTool(new SelectionTools());
+        canvas.mouseDown();
+
+        canvas.setCurrentTool(new CircleTool());
+        canvas.mouseDown();
 
 
     }
